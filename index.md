@@ -8,3 +8,5 @@ layout: default
 
 ## 2018
 [expect spawn scp * shell路径名展开](./expect-spawn-scp-shell-pathname-expansion.html).
+
+[The Linux Command Line 前 11 章内容摘录](./excerpts-from-the-first-11-chapters-of-the-linux-command-line.html).
