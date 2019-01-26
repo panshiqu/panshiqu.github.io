@@ -1,0 +1,272 @@
+/*全部文章列表*/
+.article-list {
+  padding: 8px 0 16px 0;
+}
+.article-list-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-bottom: 1px dotted #ddd;
+  padding: 1rem 0 1rem 0;
+  color: #999;
+  font-size: 12px;
+}
+.article-list-item .article-list-item-txt a {
+  font-size: 18px;
+  color: #4f4f4f;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.article-list-item .article-list-item-txt a:hover {
+  color: #C92027;
+  cursor: pointer;
+}
+.article-list-item:hover .item-info-oper {
+  display: inline-block;
+}
+.list-item-title {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.article-list-item-tag {
+  font-size: 12px;
+  padding: 0 8px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+  border: 1px solid #e9e9e9;
+}
+.article-list-item-txt {
+  font-size: 18px;
+  color: #4f4f4f;
+  margin-bottom: 0;
+}
+.article-list-item-info {
+  margin-top: 0.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.item-info-left > span {
+  margin-right: 1.5rem;
+}
+.item-info-left > span svg.icon-read {
+  width: 17px;
+  height: 17px;
+  vertical-align: -4px;
+}
+.item-info-left > span svg.icon-comment {
+  vertical-align: -5px;
+}
+.item-info-oper {
+  margin-left: auto;
+}
+.item-info-oper span {
+  color: #349EDF;
+  padding: 0px .5rem;
+  border-right: 1px solid #e9e9e9;
+  cursor: pointer;
+}
+.item-info-oper span.del {
+  border-right: 0;
+  color: #CA0C16;
+}
+.pagination-wrapper {
+  margin-top: 0rem;
+}
+/*空文章列表*/
+.list-empty-state {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10rem;
+}
+.list-empty-state-txt {
+  margin-bottom: 0;
+}
+.main-search-box {
+  margin-top: 16px;
+  padding: 16px;
+  font-size: 14px;
+  background-color: #f2f5f7;
+}
+.main-search-box button.btn-dropdown {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+.main-search-box .dropdown .dropdown-toggle {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+.main-search-box .dropdown .dropdown-toggle::after {
+  position: absolute;
+  right: 8px;
+  top: 12px;
+  color: #cccccc;
+  border-top: .38em solid;
+  border-right: .4em solid transparent;
+  border-bottom: 0;
+  border-left: .4em solid transparent;
+  transition: transform 0.3s ease-in-out;
+}
+.main-search-box .dropdown .dropdown-menu {
+  padding: 8px 0;
+  margin-top: -2px;
+  border-radius: 0 0 4px 4px;
+  border-top: 2px solid #ccc;
+  min-width: unset;
+  max-height: 212px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.main-search-box .dropdown .dropdown-menu[x-placement="top-start"] {
+  margin-top: 0;
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.main-search-box .dropdown .dropdown-menu .dropdown-item {
+  padding: 0 8px;
+  font-size: 14px;
+  line-height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-search-box .dropdown .dropdown-menu .dropdown-item:active {
+  background-color: #f8f9fa;
+}
+.main-search-box .dropdown.default-val .btn-dropdown {
+  color: #CCCCCC;
+}
+.main-search-box .dropdown.show .dropdown-toggle {
+  border-radius: 4px 4px 0 0;
+}
+.main-search-box .dropdown.show .dropdown-toggle::after {
+  transform: rotate(-180deg);
+}
+.main-search-box .dropdown.year {
+  width: 122px;
+}
+.main-search-box .dropdown.year label {
+  margin-right: -4px;
+}
+.main-search-box .dropdown.year .dropdown-toggle,
+.main-search-box .dropdown.year .dropdown-menu {
+  width: 74px;
+  min-width: unset;
+}
+.main-search-box .dropdown.year .dropdown-menu {
+  margin-left: 1px;
+}
+.main-search-box .dropdown.month {
+  width: 78px;
+}
+.main-search-box .dropdown.month .dropdown-menu {
+  width: 78px;
+}
+.main-search-box .dropdown.type {
+  width: 96px;
+}
+.main-search-box .dropdown.type .dropdown-menu {
+  width: 96px;
+}
+.main-search-box .dropdown.categorie {
+  width: 214px;
+}
+.main-search-box .dropdown.categorie .dropdown-menu {
+  width: 214px;
+}
+.main-search-box input.txt-keyword {
+  width: 220px;
+  padding: 0 4px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  outline: none;
+}
+.main-search-box input.txt-keyword::-webkit-input-placeholder {
+  color: #ccc;
+}
+.main-search-box input.txt-keyword::-moz-placeholder {
+  color: #ccc;
+}
+.main-search-box input.txt-keyword:-ms-input-placeholder {
+  color: #ccc;
+}
+.main-search-box button.btn-mp-search {
+  padding: 8px 24px;
+  height: 32px;
+  line-height: 16px;
+}
+.main-search-box .sort-box {
+  margin-top: 16px;
+  height: 22px;
+  line-height: 22px;
+}
+.main-search-box .sort-box label {
+  margin: 0;
+  margin-right: 32px;
+  color: #4D4D4D;
+  cursor: pointer;
+}
+.main-search-box .sort-box label span.icon-radio {
+  position: relative;
+  margin-right: 8px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 50%;
+  vertical-align: -3px;
+}
+.main-search-box .sort-box input[type='radio'] {
+  display: none;
+}
+.main-search-box .sort-box input[type='radio']:checked + label span.icon-radio {
+  border-color: #CA0C16;
+}
+.main-search-box .sort-box input[type='radio']:checked + label span.icon-radio::after {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ca0c16;
+}
+.main-search-box .sort-box a.btn-link {
+  font-size: 14px;
+  color: #79A5E5;
+}
+.mr8 {
+  margin-right: 8px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.mr24 {
+  margin-right: 24px;
+}
+.mr32 {
+  margin-right: 32px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcnRpY2xlTGlzdC5kOTczNDkwLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
