@@ -24,6 +24,8 @@ layout: default
 
 [中小型棋牌类网络游戏服务端架构](./blog/066.html).
 
+[mac osx beyond compare 注册码 破解方法](./blog/065.html).
+
 [带癞子麻将查表判断胡牌高效率低内存算法](./blog/064.html).
 
 [Go语言圣经：Goroutines、Channels及基于共享变量的并发](./blog/063.html).
