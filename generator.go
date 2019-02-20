@@ -87,6 +87,12 @@ content
 
 			f = f[n1+n2+n3+n4:]
 
+			if l := bytes.Index(f, []byte(`<a href="`)); l != -1 {
+				if r := bytes.IndexByte(f[l+9:], '"'); r != -1 {
+					fmt.Printf("\"https://panshiqu.github.io/blog/%03d.html\": \"%s\",\n", index, f[l+9:l+9+r])
+				}
+			}
+
 			index--
 
 			if index == 65 {
