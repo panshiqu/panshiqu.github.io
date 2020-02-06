@@ -6,6 +6,18 @@ layout: default
 
 * * *
 
+## 2020
+
+[google translate 免费使用 /translate_a/single 接口翻译](./blog/077.html)
+
+[telegram bot sendMessage 发送消息](./blog/076.html)
+
+[mysqlbinlog — Utility for Processing Binary Log Files](./blog/075.html)
+
+[Golang 中 MongoDB 实现 MySQL 自动递增 AUTO_INCREMENT](./blog/074.html)
+
+[MongoDB 常用 Aggregation Pipeline Stages - group and lookup etc](./blog/073.html)
+
 ## 2018
 
 [expect spawn scp * shell路径名展开](./blog/072.html).
