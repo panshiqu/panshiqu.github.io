@@ -8,6 +8,8 @@ layout: default
 
 ## 2020
 
+[Mac scp 使用 expect 避免输入密码 scpue](./blog/078.html)
+
 [google translate 免费使用 /translate_a/single 接口翻译](./blog/077.html)
 
 [telegram bot sendMessage 发送消息](./blog/076.html)
