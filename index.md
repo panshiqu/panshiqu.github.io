@@ -8,6 +8,8 @@ layout: default
 
 ## 2020
 
+[Docker Official Images 部署 MySQL、Redis、MongoDB](./blog/079.html)
+
 [Mac scp 使用 expect 避免输入密码 scpue](./blog/078.html)
 
 [google translate 免费使用 /translate_a/single 接口翻译](./blog/077.html)
