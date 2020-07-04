@@ -8,6 +8,8 @@ layout: default
 
 ## 2020
 
+[OpenSSL RSA 加密/解密 签名/验签 自签名证书](./blog/080.html)
+
 [Docker Official Images 部署 MySQL、Redis、MongoDB](./blog/079.html)
 
 [Mac scp 使用 expect 避免输入密码 scpue](./blog/078.html)
