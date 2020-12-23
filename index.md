@@ -8,6 +8,8 @@ layout: default
 
 ## 2020
 
+[服务器部署 CentOS、VeraCrypt、Docker、主从MySQL、Redis、备份等](./blog/081.html)
+
 [OpenSSL RSA 加密/解密 签名/验签 自签名证书](./blog/080.html)
 
 [Docker Official Images 部署 MySQL、Redis、MongoDB](./blog/079.html)
