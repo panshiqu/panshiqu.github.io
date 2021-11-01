@@ -6,6 +6,10 @@ layout: default
 
 * * *
 
+## 2021
+
+[Nginx 反向代理配置及测试](./blog/082.html)
+
 ## 2020
 
 [服务器部署 CentOS、VeraCrypt、Docker、主从MySQL、Redis、备份等](./blog/081.html)
