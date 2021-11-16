@@ -8,6 +8,8 @@ layout: default
 
 ## 2021
 
+[Ethereum 入门](./blog/084.html)
+
 [运维备忘录（持续完善）](./blog/083.html)
 
 [Nginx 反向代理配置及测试](./blog/082.html)
