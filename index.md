@@ -40,7 +40,7 @@ layout: default
 
 [The Linux Command Line 前 11 章内容摘录](./blog/071.html).
 
-[依据官方文档源码编译Nginx实现普通TCP服务反向代理负载均衡支持SSL/TLS的配置](./blog/070.html).
+[依据官方文档源码编译Nginx实现普通TCP服务反向代理负载均衡的配置](./blog/070.html).
 
 [MongoDB Manual 3.6 The mongo Shell CRUD operations create, read, update, and delete documents（增删改查）](./blog/069.html).
 
