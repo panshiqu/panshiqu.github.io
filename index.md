@@ -6,6 +6,12 @@ layout: default
 
 * * *
 
+## 2023
+
+[Jenkins Docker Pipeline Clone Build Deploy mysqldump](./blog/087.html)
+
+[再次整理备忘录（持续完善）](./blog/086.html)
+
 ## 2022
 
 [Ready Go](./blog/085.html)
