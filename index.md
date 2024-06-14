@@ -6,6 +6,10 @@ layout: default
 
 * * *
 
+## 2024
+
+[gRPC etcd 服务注册与发现、自定义负载均衡](./blog/089.html)
+
 ## 2023
 
 [Jenkins Docker Pipeline Clone Build Deploy mysqldump](./blog/087.html)
