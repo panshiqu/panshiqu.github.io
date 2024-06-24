@@ -8,6 +8,8 @@ layout: default
 
 ## 2024
 
+[RabbitMQ SDK 支持发布、消费，连接恢复，死信队列，多种使用场景](./blog/090.html)
+
 [gRPC etcd 服务注册与发现、自定义负载均衡](./blog/089.html)
 
 ## 2023
