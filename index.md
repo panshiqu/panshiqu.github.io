@@ -8,6 +8,8 @@ layout: default
 
 ## 2024
 
+[架构设计：负责网络、定时、坐下、站起、重连等，支持多类游戏的无锁房间](./blog/092.html)
+
 [Kubernetes 常用命令、资源配置整理](./blog/091.html)
 
 [RabbitMQ SDK 支持发布、消费，连接恢复，死信队列，多种使用场景](./blog/090.html)
