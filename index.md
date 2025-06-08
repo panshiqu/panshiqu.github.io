@@ -6,6 +6,10 @@ layout: default
 
 * * *
 
+## 2025
+
+[EFK (Elasticsearch + Fluentd + Kibana) 容器部署问题](./blog/095.html)
+
 ## 2024
 
 [游戏、网关等服务借助Docker容器化并使用Kubernetes部署、更新等](./blog/094.html)
